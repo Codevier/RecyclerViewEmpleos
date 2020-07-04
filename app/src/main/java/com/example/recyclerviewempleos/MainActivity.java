@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity  implements Asynchtask
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View header = getLayoutInflater().inflate(R.layout.ly_header, null);
+        //View header = getLayoutInflater().inflate(R.layout.ly_header, null);
         Map<String, String> datos = new HashMap<String, String>();
         WebService ws= new WebService("https://api.jsonbin.io/b/5efe857d0bab551d2b6af8b1",
                 datos, MainActivity.this, MainActivity.this);
